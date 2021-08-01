@@ -50,3 +50,27 @@ main {
 .btn-main:hover a {
   color: #372e2e;
 }
+
+/* About page */
+.about-me {
+  display: flex;
+}
+
+.profile-img {
+  flex: 1;
+  min-width: 20%;
+}
+
+.me {
+  height: 15%;
+  position: relative;
+  top: 3rem;
+  left: 6rem;
+}
+.profile-desc {
+  flex: 2;
+}
+p {
+  color: white;
+  font-size: 4rem;
+}
