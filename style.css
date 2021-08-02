@@ -115,3 +115,43 @@ main {
 }
 
 /* Portfolio Page */
+
+.portfolio-section {
+  background: white;
+  height: 100%;
+  padding: 4rem;
+}
+.portfolio-boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.title {
+  font-size: 7rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  margin: 20px;
+}
+
+.box {
+  border: 1px solid black;
+  height: 300px;
+  width: 280px;
+  display: grid;
+  grid-template-rows: 200px;
+  grid-template-columns: 280px;
+  margin: 20px;
+}
+
+.portfolio-img {
+  height: 100%;
+  width: 100%;
+  background: blue;
+}
+.box-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
