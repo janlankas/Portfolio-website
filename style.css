@@ -135,23 +135,35 @@ main {
 }
 
 .box {
-  border: 1px solid black;
-  height: 300px;
+  border: 2px solid black;
+  box-shadow: 5px 10px #888888;
+  height: 370px;
   width: 280px;
   display: grid;
   grid-template-rows: 200px;
   grid-template-columns: 280px;
   margin: 20px;
+  overflow: hidden;
 }
 
-.portfolio-img {
+.portfolio-img img {
   height: 100%;
   width: 100%;
-  background: blue;
+  object-fit: cover;
 }
 .box-desc {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  overflow: hidden;
+}
+.box-desc h3 {
+  font-family: "Montserrat", sans-serif;
+  margin: 10px;
+}
+
+.box-desc p {
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem;
 }
