@@ -105,5 +105,11 @@ main {
   top: 70%;
 }
 .s-icons {
+  color: rgb(74, 80, 194);
   margin: 0.5rem 15px;
+}
+
+.s-icons:hover {
+  color: rgb(255, 145, 102);
+  transition: all 0.3s ease-in-out;
 }
