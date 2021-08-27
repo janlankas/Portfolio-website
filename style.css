@@ -11,13 +11,21 @@ main {
   min-width: 100%;
   position: relative;
 }
+.header-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .header {
   color: #fff;
-  font-size: 5rem;
+  font-size: 8rem;
   font-family: "Indie Flower", cursive;
-  position: absolute;
-  top: 25%;
-  left: 25%;
+  text-align: center;
+  width: 100%;
+}
+.container {
+  justify-content: center;
 }
 
 .btn-main {
@@ -30,13 +38,15 @@ main {
   font-size: 1rem;
   font-family: "Recursive", sans-serif;
 }
-
-.btn-about {
+.btn-box-about {
+  text-align: center;
+}
+/* .btn-about {
   left: 30%;
 }
 .btn-port {
   right: 30%;
-}
+} */
 
 .btn-links {
   color: white;
@@ -69,6 +79,7 @@ main {
   height: 60%;
   top: 3rem;
   position: relative;
+  border-radius: 10%;
 }
 .profile-desc {
   flex: 2;
