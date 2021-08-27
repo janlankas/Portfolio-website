@@ -132,12 +132,7 @@ main {
   height: 100%;
   padding: 4rem;
 }
-.portfolio-boxes {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
+
 .title {
   font-size: 7rem;
   font-family: "Montserrat", sans-serif;
@@ -148,17 +143,14 @@ main {
 .box {
   border: 2px solid black;
   box-shadow: 5px 10px #888888;
-  height: 370px;
-  width: 280px;
-  display: grid;
-  grid-template-rows: 200px;
-  grid-template-columns: 280px;
   margin: 20px;
+  width: 20%;
   overflow: hidden;
+  padding: 0;
 }
 
 .portfolio-img img {
-  height: 100%;
+  height: 200px;
   width: 100%;
   object-fit: cover;
 }
@@ -167,6 +159,7 @@ main {
   flex-direction: column;
   align-items: center;
   text-align: center;
+
   overflow: hidden;
 }
 .box-desc h3 {
@@ -177,4 +170,14 @@ main {
 .box-desc p {
   font-family: "Montserrat", sans-serif;
   padding: 1rem;
+}
+
+.used-tech {
+  color: black;
+  opacity: 0.5;
+}
+.portfolio-img:hover {
+  transition: transform 0.5s;
+  transform: scale(1.12);
+  overflow: hidden;
 }

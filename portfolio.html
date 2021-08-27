@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,78 +21,120 @@
 <body>
     <section class='portfolio-section'>
         <h1 class='title'>Portfolio</h1>
-        <div class="portfolio-boxes">
-            <div class="box">
-                <div class="portfolio-img">
-                    <img src="./img/beatmaker.PNG" alt="">
-                </div>
-                <div class="box-desc">
-                    <h3>Beat Maker</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, reprehenderit?</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="portfolio-img">
-                    <img src="./img/todolist.PNG" alt="">
 
+        <div class="container portfolio-boxes">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-3 box">
+                    <div class="portfolio-img">
+                        <img src="./img/beatmaker.PNG" alt="">
+                    </div>
+                    <div class="box-desc">
+                        <h3>Beat Maker</h3>
+                        <p>Need a beat?! Don't worry I made it for you.</p>
+                        <p class='used-tech'>HTML, CSS, JS</p>
+                    </div>
                 </div>
-                <div class="box-desc">
-                    <h3>TO DO List</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, reprehenderit?</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="portfolio-img">
-                    <img src="./img/color-pallete.PNG" alt="">
+                <div class="col-sm-12 col-md-4 col-lg-3 box">
+                    <div class="portfolio-img">
+                        <img src="./img/todolist.PNG" alt="">
 
-                </div>
-                <div class="box-desc">
-                    <h3>Color Palette</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, reprehenderit?</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="portfolio-img">
-                    <img src="./img/drumkit.PNG" alt="">
+                    </div>
+                    <div class="box-desc">
+                        <h3>TO DO List</h3>
+                        <p>You are not the only one who forget his day plan. That's why to do list comes handy</p>
+                        <p class='used-tech'>HTML, CSS, JS</p>
 
+                    </div>
                 </div>
-                <div class="box-desc">
-                    <h3>Drumkit</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, reprehenderit?</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="portfolio-img">
-                    <img src="./img/days.PNG" alt="">
+                <div class="col-sm-12 col-md-4 col-lg-3 box">
+                    <div class="portfolio-img">
+                        <img src="./img/color-pallete.PNG" alt="">
 
-                </div>
-                <div class="box-desc">
-                    <h3>Travel website</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, reprehenderit?</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="portfolio-img">
-                    <img src="./img/afloat.PNG" alt="">
+                    </div>
+                    <div class="box-desc">
+                        <h3>Color Palette</h3>
+                        <p>Pick your own colors from color pallete and your make styles briliant</p>
+                        <p class='used-tech'>HTML, CSS, JS</p>
 
+                    </div>
                 </div>
-                <div class="box-desc">
-                    <h3>Afloat</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, reprehenderit?</p>
+
+                <div class=" col-sm-12 col-md-4 col-lg-3 box">
+                    <div class="portfolio-img">
+                        <img src="./img/drumkit.PNG" alt="">
+
+                    </div>
+                    <div class="box-desc">
+                        <h3>Drumkit</h3>
+                        <p>Drums on a keyboard. Great way to cure boredom</p>
+                        <p class='used-tech'>HTML, CSS, JS</p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-3 box">
+                    <div class="portfolio-img">
+                        <img src="./img/greensisters.png" alt="">
+
+                    </div>
+                    <div class="box-desc">
+                        <h3>Green Sisters</h3>
+                        <p> CBD E-shop made for Slovak company. </p>
+                        <p class='used-tech'>HTML, CSS</p>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-3 box">
+                    <div class="portfolio-img">
+                        <img src="./img/days.PNG" alt="">
+
+                    </div>
+                    <div class="box-desc">
+                        <h3>Travel website</h3>
+                        <p>Cool travel website with animations</p>
+                        <p class='used-tech'>HTML, CSS, JS</p>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-3 box">
+                    <div class="portfolio-img">
+                        <img src="./img/afloat.PNG" alt="">
+
+                    </div>
+                    <div class="box-desc">
+                        <h3>Afloat</h3>
+                        <p>Landing page </p>
+                        <p class='used-tech'>HTML, CSS, JS</p>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-3 box">
+                    <div class="portfolio-img">
+                        <img src="./img/Levný Antik.PNG" alt="">
+                    </div>
+                    <div class="box-desc">
+                        <h3>Levný Antik</h3>
+                        <p>Wordpress website made for Cybronet company.This is their
+                            product-showing site, where the customer can reserve his product.
+                        <p class='used-tech'>Wordpress</p>
+                        </p>
+
+
+                    </div>
                 </div>
             </div>
-            <div class="box">
-                <div class="portfolio-img">
-                    <img src="./img/Levný Antik.PNG" alt="">
-                </div>
-                <div class="box-desc">
-                    <h3>Levný Antik</h3>
-                    <p>Wordpress website made for Cybronet company.This is their
-                        product-showing sitem, where the customer can reserve his product.</p>
-                </div>
-            </div>
+
+
+
+
         </div>
     </section>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
