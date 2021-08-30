@@ -1,3 +1,7 @@
+:root {
+  --color-heading: 37, 36, 36;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -117,7 +121,7 @@ main {
 }
 .s-icons {
   color: rgb(74, 80, 194);
-  margin: 0.5rem 15px;
+  margin: 0.5rem 1rem;
 }
 
 .s-icons:hover {
@@ -130,27 +134,29 @@ main {
 .portfolio-section {
   background: white;
   height: 100%;
-  padding: 4rem;
+  padding: 2rem;
 }
 
 .title {
-  font-size: 7rem;
+  font-size: 4rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  margin: 20px;
+  margin: 1.25rem 0;
+  max-width: 20%;
 }
 
 .box {
-  border: 2px solid black;
-  box-shadow: 5px 10px #888888;
-  margin: 20px;
-  width: 20%;
+  border: 1px solid rgba(122, 116, 116, 0.1);
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px rgba(39, 39, 39, 0.5);
+  margin: 1rem auto;
   overflow: hidden;
+  max-height: 80%;
   padding: 0;
 }
 
 .portfolio-img img {
-  height: 200px;
+  height: 12.5rem;
   width: 100%;
   object-fit: cover;
 }
@@ -170,14 +176,35 @@ main {
 .box-desc p {
   font-family: "Montserrat", sans-serif;
   padding: 1rem;
+  max-width: 75%;
+}
+.box-desc a {
+  text-decoration: none;
+  color: rgb(var(--color-heading));
 }
 
 .used-tech {
   color: black;
   opacity: 0.5;
+  padding: 0;
+  margin-bottom: 1px;
 }
 .portfolio-img:hover {
-  transition: transform 0.5s;
+  transition: transform 0.6s;
   transform: scale(1.12);
   overflow: hidden;
+}
+
+@media (min-width: 992px) {
+  .box {
+    width: 20%;
+  }
+  .title {
+    font-size: 7rem;
+    margin: 1.25rem 1.25rem;
+    padding: 2rem;
+  }
+  .portofolio-section {
+    padding: 4rem;
+  }
 }
