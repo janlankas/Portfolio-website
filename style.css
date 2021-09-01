@@ -208,3 +208,14 @@ main {
     padding: 4rem;
   }
 }
+
+.back-btn {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Recursive", sans-serif;
+
+  position: relative;
+  right: 1rem;
+  top: 1rem;
+}
